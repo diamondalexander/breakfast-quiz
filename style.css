@@ -41,6 +41,23 @@ h2 {
   color: #919198;
 }
 
+.two-column {
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+}
+
+/*.column {
+  width: 50%;
+  float: left;
+  text-align: center;
+}*/
+
+.column {
+  flex: 50%;
+}
+
+
 
 
 @media (max-width: 774px) {
