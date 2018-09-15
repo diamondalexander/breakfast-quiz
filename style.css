@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  background-color: #E47EBD;
-  padding: 50px;
+  background-color: #DC747C;
+  padding: 40px;
 }
 
 .home-link {
@@ -36,17 +36,49 @@ h1 {
   text-align: center;
   font-size: 20px;
   line-height: 2;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 h2 {
   text-align: center;
   font-size: 35px;
+  margin: 0px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  margin: 0px;
+  margin-top: 20px;
 }
 
 #number {
   font-size: 60px;
   font-weight: 400;
   color: #919198;
+}
+
+#light-heading, #hearty-heading {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 2;
+  color: #555;
+  border-top: 2px solid #ddd;
+  padding-top: 8px;
+}
+
+.result-link {
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 3;
+  font-weight: 700;
+}
+
+.result-link:hover {
+  color: #eee;
 }
 
 /** Global Button Text/Image Styling**/
@@ -82,10 +114,14 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 30px;
+  border: 2px solid #fff;
+  padding: 5px 8px;
 }
 
 .button-text a:hover {
   background-color: #222;
+  border: 2px solid #222;
+  color: #fff;
   padding: 5px 8px;
 }
 
@@ -124,14 +160,48 @@ h2 {
 }
 
 #light-sweet-veg {
-  background-image: url(/images/hearty-pancakes.jpg);
-  background-position: center;
+  background-image: url(/images/light-sweet-veg.jpg);
+  background-position: right;
 }
 
 #light-savory-veg {
-  background-image: url(/images/hearty-pancakes.jpg);
+  background-image: url(/images/light-savory-veg.jpg);
   background-position: center;
 }
+
+#hearty-sweet-veg {
+  background-image: url(/images/hearty-sweet-veg.jpg);
+  background-position: center;
+}
+
+#hearty-savory-veg {
+  background-image: url(/images/hearty-savory-veg.jpg);
+  background-position: center;
+}
+
+#smoothie-bowl {
+  background-color: #A391B9;
+  margin-top: 200px;
+}
+
+#savory-yogurt {
+  background-color: #95A5C3;
+  margin-top: 200px;
+}
+
+#breakfast-salad {
+  background-color: #5CBBC1;
+  margin-top: 200px;
+}
+
+.protein-pancakes {
+  background-color: #E5A3A0;
+  margin-top: 200px;
+}
+
+/*.protein-pancakes {
+  color: #fff!important;
+}*/
 
 /**Carnivore Styling**/
 
@@ -156,6 +226,55 @@ h2 {
   padding: 10px;
 }
 
+#light-carn {
+  background-image: url(/images/light-breakfast.jpg);
+  background-position: bottom;
+}
+
+#hearty-carn {
+  background-image: url(/images/hearty-carnivore.jpg);
+  background-position: center;
+}
+
+#light-sweet-carn {
+  background-image: url(/images/light-sweet-carn.jpg);
+  background-position: center;
+}
+
+#light-savory-carn {
+  background-image: url(/images/light-savory-carn.jpg);
+  background-position: center;
+}
+
+#hearty-sweet-carn {
+  background-image: url(/images/hearty-sweet-carn.jpg);
+  background-position: center;
+}
+
+#hearty-savory-carn {
+  background-image: url(/images/hearty-savory-carn.jpg);
+  background-position: right;
+}
+
+#waffle-sandwich {
+  background-color: #997580;
+  margin-top: 200px;
+}
+
+#avocado-toast {
+  background-color: #61887A;
+  margin-top: 200px;
+}
+
+#fried-rice {
+  background-color: #EA6D56;
+  margin-top: 200px;
+}
+
+#maple-bacon {
+  background-color: #AA8962;
+  margin-top: 200px;
+}
 
 
 
