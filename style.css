@@ -81,6 +81,18 @@ h3 {
   color: #eee;
 }
 
+.start-over a{
+  text-align: center;
+  color: #fff!important;
+  display: block;
+  width: 200px;
+  margin: -15px auto 0px;
+  background-color: #222;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 /** Global Button Text/Image Styling**/
 
 .two-column {
@@ -181,22 +193,22 @@ h3 {
 
 #smoothie-bowl {
   background-color: #A391B9;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 #savory-yogurt {
   background-color: #95A5C3;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 #breakfast-salad {
   background-color: #5CBBC1;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .protein-pancakes {
   background-color: #E5A3A0;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 /*.protein-pancakes {
@@ -258,22 +270,22 @@ h3 {
 
 #waffle-sandwich {
   background-color: #997580;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 #avocado-toast {
   background-color: #61887A;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 #fried-rice {
-  background-color: #EA6D56;
-  margin-top: 200px;
+  background-color: #D94E93;
+  margin-top: 100px;
 }
 
 #maple-bacon {
   background-color: #AA8962;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 
