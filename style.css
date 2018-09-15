@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #E47EBD;
+  padding: 50px;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+}
+
+#breakfast {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+#intro-text {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+#number {
+  font-size: 60px;
+  font-weight: 400;
+  color: #919198;
+}
+
+
+
+@media (max-width: 774px) {
+  h1 {
+    font-size: 45px;
+  }
+}
