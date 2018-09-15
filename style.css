@@ -10,6 +10,14 @@ header {
   padding: 50px;
 }
 
+.home-link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
 h1 {
   color: #fff;
   font-weight: 400;
@@ -41,27 +49,101 @@ h2 {
   color: #919198;
 }
 
+/** Global Button Text Styling**/
+
 .two-column {
   margin: 0 auto;
-  max-width: 500px;
-  display: flex;
+  max-width: 1000px;
 }
 
-/*.column {
+.two-column::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
   width: 50%;
   float: left;
   text-align: center;
-}*/
+  height: 200px;
+  width: 400px;
+  margin: 50px;
+}
 
-.column {
-  flex: 50%;
+.button-text {
+  margin-top: 75px;
+}
+
+.button-text a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none!important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.button-text a:hover {
+  background-color: #222;
+  padding: 5px 8px;
+}
+
+/**Vegetarian Pages**/
+
+#vegetarian {
+  background-image: url(/images/eggs.jpg);
+  background-position: center;
+}
+
+.vegetarian-banner {
+  background-color: #B2C8A8;
+}
+
+#vegetarian-intro {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 5px;
+  background-color: #222;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+
+/**Carnivore Styling**/
+
+#carnivore {
+  background-image: url(/images/bacon.jpg);
+  background-position: center;
+}
+
+.carnivore-banner {
+  background-color: #ECCCBA;
+}
+#carnivore-intro {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 5px;
+  background-color: #222;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 
 
 
+/**Media Queries**/
+
 @media (max-width: 774px) {
-  h1 {
+  .home-link {
     font-size: 45px;
   }
 }
