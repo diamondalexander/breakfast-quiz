@@ -49,7 +49,7 @@ h2 {
   color: #919198;
 }
 
-/** Global Button Text Styling**/
+/** Global Button Text/Image Styling**/
 
 .two-column {
   margin: 0 auto;
@@ -113,6 +113,25 @@ h2 {
   padding: 10px;
 }
 
+#light-veg {
+  background-image: url(/images/light-smoothie.jpg);
+  background-position: top left;
+}
+
+#hearty-veg {
+  background-image: url(/images/hearty-pancakes.jpg);
+  background-position: center;
+}
+
+#light-sweet-veg {
+  background-image: url(/images/hearty-pancakes.jpg);
+  background-position: center;
+}
+
+#light-savory-veg {
+  background-image: url(/images/hearty-pancakes.jpg);
+  background-position: center;
+}
 
 /**Carnivore Styling**/
 
